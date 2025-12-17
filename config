@@ -1,0 +1,43 @@
+# foreground = ffffff
+# background = 282c34
+
+font-family = JetBrains Mono
+theme = GitHub Dark High Contrast
+background-opacity = 0.98
+
+# タイトルバー設定
+# タブバーをタイトルバーに統合
+macos-titlebar-style = tabs
+# プロキシアイコン（フォルダアイコン）を非表示
+macos-titlebar-proxy-icon = hidden
+
+# ペイン分割の境界線（薄いグレー）
+split-divider-color = #2a2a2a
+
+# 非アクティブペインを暗くしない
+unfocused-split-opacity = 1
+
+# 画面分割: Cmd+, で横分割、Cmd+. で縦分割
+keybind = cmd+comma=new_split:right
+keybind = cmd+period=new_split:down
+
+# ペイン移動: Cmd+矢印
+keybind = cmd+arrow_left=goto_split:left
+keybind = cmd+arrow_right=goto_split:right
+keybind = cmd+arrow_up=goto_split:up
+keybind = cmd+arrow_down=goto_split:down
+
+# タブ移動: Opt+矢印
+keybind = alt+left=previous_tab
+keybind = alt+right=next_tab
+
+# タブのキーキャップ表示を消す（Cmd+数字のバインドを解除）
+keybind = super+1=unbind
+keybind = super+2=unbind
+keybind = super+3=unbind
+keybind = super+4=unbind
+keybind = super+5=unbind
+keybind = super+6=unbind
+keybind = super+7=unbind
+keybind = super+8=unbind
+keybind = super+9=unbind
