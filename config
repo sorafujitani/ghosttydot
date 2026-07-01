@@ -5,7 +5,7 @@ font-family = JetBrains Mono
 font-size = 15
 theme = Night Owl
 background = #04101b
-background-opacity = 0.93
+background-opacity = 0.95
 foreground = #c8d7e8
 cursor-color = #7dd3fc
 cursor-text = #03121e
@@ -31,8 +31,10 @@ palette = 14=#8ff3ff
 palette = 15=#eef6ff
 
 # タイトルバー設定
-# 上部のタイトルバーとタブを非表示
+# 上部のタイトルバー、信号ボタン、タブを非表示
+window-decoration = none
 macos-titlebar-style = hidden
+macos-non-native-fullscreen = true
 window-show-tab-bar = never
 # プロキシアイコン（フォルダアイコン）を非表示
 macos-titlebar-proxy-icon = hidden
@@ -43,8 +45,8 @@ split-divider-color = #223041
 # 非アクティブペインを暗くしない
 unfocused-split-opacity = 1
 
-# ウィンドウ最大化トグル
-keybind = alt+enter=toggle_maximize
+# メニューバーを隠すフルスクリーントグル
+keybind = alt+enter=toggle_fullscreen
 
 # 画面分割: Cmd+, で横分割、Cmd+. で縦分割
 keybind = cmd+comma=new_split:right
