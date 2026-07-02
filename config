@@ -4,31 +4,9 @@
 font-family = JetBrains Mono
 font-size = 15
 theme = Night Owl
-background = #04101b
+background = #020b16
 background-opacity = 0.95
-foreground = #c8d7e8
 cursor-color = #7dd3fc
-cursor-text = #03121e
-selection-foreground = #dbeafe
-selection-background = #1f3a50
-
-# Cold ANSI palette
-palette = 0=#07111d
-palette = 1=#ff6b7a
-palette = 2=#7dd3a7
-palette = 3=#c4d88a
-palette = 4=#7aa2f7
-palette = 5=#b8a5ff
-palette = 6=#67e8f9
-palette = 7=#c8d7e8
-palette = 8=#405064
-palette = 9=#ff8fa3
-palette = 10=#9ae6b4
-palette = 11=#d7e6a3
-palette = 12=#9bbcff
-palette = 13=#cdbdff
-palette = 14=#8ff3ff
-palette = 15=#eef6ff
 
 # タイトルバー設定
 # 上部のタイトルバー、信号ボタン、タブを非表示
@@ -39,8 +17,8 @@ window-show-tab-bar = never
 # プロキシアイコン（フォルダアイコン）を非表示
 macos-titlebar-proxy-icon = hidden
 
-# ペイン分割の境界線
-split-divider-color = #223041
+# ペイン分割の境界線（薄いグレー）
+split-divider-color = #2a2a2a
 
 # 非アクティブペインを暗くしない
 unfocused-split-opacity = 1
